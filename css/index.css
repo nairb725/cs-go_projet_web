@@ -182,7 +182,7 @@
   }
   
   /* Caption text */
-  .text {
+  .text_skin_awp_rotate {
     color: white;
     transform: rotate(-45deg);
     font-size: 15px;
