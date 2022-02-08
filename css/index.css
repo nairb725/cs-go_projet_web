@@ -13,12 +13,21 @@ height: 100%;
     padding-top: 2rem;
 }
 .choose_team_terro{
-  padding-right: 1rem;
-  }
+  padding-right: 2rem;
+}
 
-  .choose_team_anti{
-    padding-left: 1rem;
-  }
+.choose_team_anti{
+padding-left: 2rem;
+}
+
+.choose_team_terro:hover{
+    transform: scale(1.1);
+}
+
+.choose_team_anti:hover{
+    transform: scale(1.1);
+}
+  
 
 *{
     margin:0;
