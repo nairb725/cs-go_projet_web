@@ -8,6 +8,17 @@ height: 100%;
     font-size: 4rem;
     font-style: italic;
 }
+
+.choose_team_terro{
+    align-items: center;
+    padding-top: 1%;
+  }
+
+  .choose_team_anti{
+    align-items: center;
+    padding-top: 1%;
+  }
+
 *{
     margin:0;
     padding:0;
@@ -225,4 +236,3 @@ height: 100%;
     from {opacity: .4}
     to {opacity: 1}
   }
-  
