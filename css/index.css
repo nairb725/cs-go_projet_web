@@ -223,9 +223,9 @@ height: 100%;
   /* Fading animation */
   .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 3.5s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 3.5s;
   }
   
   @-webkit-keyframes fade {
