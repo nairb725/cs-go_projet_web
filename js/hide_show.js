@@ -33,3 +33,15 @@ const choose_team = ScrollReveal({
 
 choose_team.reveal('#choose_team')
 choose_team.reveal('#choose_team', { delay: 400 })
+
+/* IMG MAP SECTION */
+const map_hide_show = ScrollReveal({
+    distance: '100px',
+    opacity: 0,
+    reset: true,
+    delay: 50,
+    duration: 800
+})
+
+map_hide_show.reveal('#map_hide_show')
+map_hide_show.reveal('#map_hide_show', { delay: 400 })
