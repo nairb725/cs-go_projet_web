@@ -1,5 +1,5 @@
 const btn = document.querySelector('.back-to-top-btn')
-const carouselBounds = document.querySelector('.carousel').getBoundingClientRect()
+
 
 setInterval(() => {
     // If user scroll 100px, display the button
