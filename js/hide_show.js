@@ -1,6 +1,6 @@
 /* TITLES SECTION */
 const title = ScrollReveal({
-    distance: '100px',
+    distance: '200px',
     opacity: 0,
     reset: true,
     delay: 50,
@@ -12,7 +12,7 @@ title.reveal('#title', { delay: 400 })
 
 /* SLIDE SHOW SECTION */
 const slid_show = ScrollReveal({
-    distance: '100px',
+    distance: '200px',
     opacity: 0,
     reset: true,
     delay: 50,
@@ -24,7 +24,7 @@ slid_show.reveal('#background_skin_awp', { delay: 400 })
 
 /* TEAM SECTION */
 const choose_team = ScrollReveal({
-    distance: '100px',
+    distance: '200px',
     opacity: 0,
     reset: true,
     delay: 50,
