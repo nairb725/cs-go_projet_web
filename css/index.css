@@ -246,3 +246,19 @@ padding-left: 2rem;
     from {opacity: .4}
     to {opacity: 1}
   }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.map_column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Clear floats after image containers */
+.map_row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
