@@ -12,9 +12,13 @@
 
     <section>
         <div class="container">
-            <div class="title_skin">Partez Au Combat Avec Style</div>
-          <div class="background-img">
-            <div class="box">
+            <video autoplay loop muted>
+                <source src="../img/BEST Pro Deagle Plays in CS_GO_Trim.mp4" type="video/mp4">
+              </video>
+              
+            <div class="title_skin" id="title">Partez Au Combat Avec Style</div>
+          <div class="background-img" id="background_skin_awp">
+            <div class="box" id="box_slide_show">
               <span></span>
               <span></span>
               <span></span>
@@ -22,7 +26,7 @@
                 <div class="content">
 
                     <!-- Slideshow container -->
-                    <div class="slideshow-container">
+                    <div class="slideshow-container" id="slideshow_skin_awp">
 
                         <!-- Full-width images with number and caption text -->
                         <div class="mySlides fade">
@@ -48,8 +52,8 @@
                 </div>
             </div>
         </div>
-        <div class="title_skin" style="color: white;">2 Camps 2 Choix</div>
-        <div class="choose_team">
+        <div class="title_team" id="title"style="color: white;">2 Camps 2 Choix</div>
+        <div class="choose_team" id="choose_team">
             <img src="../img/cs_go_team_terrorist.jpg" class="choose_team_terro">
             <img src="../img/cs_go_team_anti-terrorist.jpg" class="choose_team_anti">
         </div>
@@ -57,5 +61,8 @@
     </section>
   
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
 <script src="../js/index.js"></script>
+<script src="../js/hide_show.js"></script>
 </html>
