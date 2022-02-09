@@ -23,18 +23,28 @@ height: 100%;
 }
 .choose_team_terro{
   padding-right: 2rem;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .choose_team_anti{
 padding-left: 2rem;
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
 }
 
 .choose_team_terro:hover{
-    transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .choose_team_anti:hover{
-    transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
   
 
@@ -270,4 +280,16 @@ padding-left: 2rem;
   content: "";
   clear: both;
   display: table;
+}
+
+.map_img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.map_img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
