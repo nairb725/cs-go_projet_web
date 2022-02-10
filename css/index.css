@@ -44,14 +44,14 @@ transition: .3s ease-in-out;
 }
 
 .choose_team_terro:hover{
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
   padding: 1rem;
 }
 
 .choose_team_anti:hover{
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
   padding: 1rem;
 }
   
@@ -168,7 +168,7 @@ transition: .3s ease-in-out;
     width:100%;
     height: 2px;
     background: #50dfdb;
-    animation: animate 4s linear infinite;
+    animation: animate 4.02s linear infinite;
   }
   
   @keyframes animate {
@@ -257,21 +257,23 @@ transition: .3s ease-in-out;
   }
   
   /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 3.5s;
-    animation-name: fade;
-    animation-duration: 3.5s;
+  .slidein {
+    -webkit-animation-name: slidein;
+    -webkit-animation-duration: 0.9s;
+    animation-name: slidein;
+    animation-duration: 0.9s;
   }
   
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
   
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
