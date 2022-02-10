@@ -26,33 +26,30 @@ height: 100%;
 .choose_team{
     text-align: center;
     padding-top: 2rem;
+    padding-bottom: 200px;
 }
 .choose_team_terro{
-  padding-right: 2rem;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  padding-right: 40px;
+  transform-origin: 50% 65%;
+  transition: transform 1s, filter 1s ease-in-out;
+  filter: brightness(110%);
 }
 
 .choose_team_anti{
-padding-left: 2rem;
--webkit-transform: scale(1);
-transform: scale(1);
--webkit-transition: .3s ease-in-out;
-transition: .3s ease-in-out;
+  padding-left: 40px;
+  transform-origin: 50% 65%;
+  transition: transform 1s, filter 1s ease-in-out;
+  filter: brightness(110%);
 }
 
 .choose_team_terro:hover{
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  padding: 1rem;
+  transform: scale(1.15);
+  filter: brightness(140%);
 }
 
 .choose_team_anti:hover{
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  padding: 1rem;
+  transform: scale(1.15);
+  filter: brightness(140%);
 }
   
 
@@ -168,7 +165,7 @@ transition: .3s ease-in-out;
     width:100%;
     height: 2px;
     background: #50dfdb;
-    animation: animate 4.02s linear infinite;
+    animation: animate 4s linear infinite;
   }
   
   @keyframes animate {
@@ -279,7 +276,7 @@ transition: .3s ease-in-out;
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .map_column {
   float: left;
-  width: 45%;
+  width: 42%;
   padding-bottom: 40px;
   display: flex;
   justify-content: center;
@@ -299,20 +296,20 @@ transition: .3s ease-in-out;
 
 .map_img {
   overflow: hidden;
-  -webkit-transform: scale(1);
-  transform: scale(1);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   border: solid 5px #161314;
-  transition: border-width 0.6s linear;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .map_img:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
   font-size: 24px;
   min-height: 3em;
-  resize: both;
   background: #ffd73e33;
   border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
 }
