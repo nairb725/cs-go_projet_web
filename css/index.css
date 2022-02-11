@@ -5,26 +5,34 @@
  display: block;
 }
 section{
-    background: linear-gradient(white, rgb(161, 161, 161), black);
-    width: 100%;
-height: 100%;
+  font-family: "Trirong", serif;
+  background: linear-gradient(white, rgb(161, 161, 161), black);
+  width: 100%;
+  height: 100%;
 }
 .video_pentakill{
   text-align: center;
+}
+.title_area{
+  text-align: center;
+  font-size: 4rem;
+  font-style: italic;
+  padding-top: 20%;
+  padding-bottom: 10%;
 }
 .title_skin{
     text-align: center;
     font-size: 4rem;
     font-style: italic;
     padding-top: 20%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 .title_team{
   text-align: center;
     font-size: 4rem;
     font-style: italic;
     padding-top: 20%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 .choose_team{
     text-align: center;
@@ -71,7 +79,7 @@ height: 100%;
     padding-bottom: 20px;
   }
   body{
-    background-color: #111845;
+    background-color: #ffffff;
   }
   
   .background-img{
@@ -365,4 +373,10 @@ footer{
 }
 .flashbang_img{
   width: 5%;
+}
+#blinded_gif{
+  display: none;
+  padding-left: 45%;
+  padding-top: 15%;
+  background-color: white;
 }
