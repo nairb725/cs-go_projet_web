@@ -258,11 +258,13 @@ body {
   padding-top: 3%;
 }
 
-.flash_hover {
+.logo_hover_text {
   color: black;
   font-size: 16px;
 }
 
-.twitch_logo:hover{
-background-color: purple;
+.wrapper .twitch:hover span,
+.wrapper .twitch:hover .tooltip,
+.wrapper .twitch:hover .tooltip:before{
+  background:purple;
 }
