@@ -257,3 +257,12 @@ body {
 .footer_icon_padding {
   padding-top: 3%;
 }
+
+.flash_hover {
+  color: black;
+  font-size: 16px;
+}
+
+.twitch_logo:hover{
+background-color: purple;
+}

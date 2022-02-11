@@ -367,7 +367,10 @@ footer{
   text-align: right;
 }
 .flashbang_img{
-  width: 20%;
+  width: 130%;
+  margin-left: -40px;
+  position: absolute;
+  z-index: 10;
 }
 #blinded_gif{
   display: none;
