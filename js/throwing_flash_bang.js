@@ -7,14 +7,14 @@ function white_screen(){
         return new Promise(resolve => setTimeout(resolve, time));
       }
       var get_blinded = document.getElementById("blinded_gif")
-      var background = document.getElementById("section_csgo")
-      var body = document.getElementById("body")
+      var header = document.getElementById("header")
+      var footer = document.getElementById("footer")
       delay(1000).then(() => bouncing_explose.play());
+      delay(2000).then(() => footer.style.background = "white");
       delay(2000).then(() => white_screen.style.display = "none");
+      delay(2000).then(() => header.style.display = "none");
       delay(2000).then(() => get_blinded.style.display="block");
-      delay(2000).then(() => background.style.background="linear-gradient(white, rgb(255,255,255), white)");
-      delay(2000).then(() => body.style.background="white");
       delay(3800).then(() => get_blinded.style.display="none");
-      delay(3800).then(() => background.style.background="linear-gradient(white, rgb(161, 161, 161), black)");
+      delay(2000).then(() => footer.style.background = "rgb(184, 184, 184)");
       delay(3800).then(() => white_screen.style.display = "block");
     }
