@@ -15,7 +15,7 @@ section{
   font-size: 4rem;
   font-style: italic;
   padding-top: 20%;
-  padding-bottom: 10%;
+  padding-bottom: 8%;
 }
 .title_skin{
     text-align: center;
@@ -31,6 +31,7 @@ section{
     padding-top: 20%;
     padding-bottom: 10%;
 }
+
 .choose_team{
     text-align: center;
     padding-top: 2rem;
@@ -73,7 +74,6 @@ section{
   
   .container{  
     padding-top: 0;
-    padding-bottom: 20px;
   }
   body{
     background-color: #ffffff;
@@ -312,8 +312,8 @@ section{
 }
 
 .map_img:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   font-size: 24px;
