@@ -12,7 +12,6 @@ function white_screen(){
       delay(1000).then(() => bouncing_explose.play());
       delay(2000).then(() => footer.style.background = "white");
       delay(2000).then(() => white_screen.style.display = "none");
-      delay(2000).then(() => header.style.display = "none");
       delay(2000).then(() => get_blinded.style.display="block");
       delay(3800).then(() => get_blinded.style.display="none");
       delay(2000).then(() => footer.style.background = "rgb(184, 184, 184)");
