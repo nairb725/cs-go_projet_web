@@ -1,81 +1,42 @@
-:root {
-    /*   color variables */
-    --clr-primary: #2a3cad;
-    --clr-primary-hover: #2a3cad;
-    --clr-primary-dark: #2a3cad;
-    --clr-gray100: #f0f7f8;
-    --clr-gray200: #cfd8dc;
-  
-    /*   border radius */
-    --radius: 0.2rem;
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
   }
   
-  *,
-  *:before,
-  *:after {
-    box-sizing: content-box;
-
-  }
-  
-  body {
-    font-family: Montserrat, sans-serif;
-    background: var(--clr-gray100);
-  }
-  
-  .nav-list {
-    background: white;
-    box-shadow: 0px 0px 10px var(--clr-gray200);
-    padding: 2rem 0;
-    border-radius: var(--radius);
+  /* Header */
+  header {
     display: flex;
     justify-content: flex-end;
-  }
-
-  #goodies{
-    width:50%;
-    background-color: yellow;
-    text-align: center;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
   }
   
-  .nav-item {
-    list-style: none;
-    margin-right: 5rem;
+  #nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
   }
-
+  
+  header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+  }
+  
+  header a:hover {
+    color: #2a3cad;
+  }
+  
   .csgo_logo{
     width: 15%;
-    display: block;
-   }
-  
-  .nav-item a {
-    text-decoration: none;
-    color: black;
-    transition: all 200ms ease-in;
-  }
-  
-  .nav-item a:hover {
-    color: var(--clr-primary-dark);
-  }
-  
-  .nav-item:first-child {
+    display: flex;
     margin-right: auto;
-    margin-left: 2rem;
-  }
-  
-  .btn-primary {
-    font-family: Montserrat, sans-serif;
-    font-size: 1rem;
-    background: var(--clr-primary);
-    border: none;
-    outline: none;
-    border-radius: var(--radius);
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: all 200ms ease-in;
-    color: #FFFF;
-  }
-  
-  .btn-primary:hover {
-    background: var(--clr-primary-hover);
-  }
-  
+   }
