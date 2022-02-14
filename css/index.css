@@ -7,6 +7,8 @@ section{
 }
 .video_pentakill{
   text-align: center;
+  padding-top: 20px;
+
 }
 .title_area{
   text-align: center;
@@ -70,7 +72,7 @@ section{
   }
   
   .container{  
-    padding-top: 20px;
+    padding-top: 0;
     padding-bottom: 20px;
   }
   body{
