@@ -267,3 +267,31 @@ body {
 .wrapper .twitch:hover .tooltip:before{
   background:purple;
 }
+
+.name_author:hover {
+  transform: scale(1.15);
+  filter: brightness(140%);
+  animation:  shake 0.8s  ;
+}
+
+@keyframes shake{
+  0%{
+    transform: translateX(0)
+  }
+  25%{
+    transform: translateX(25px);
+  }
+    
+  50%{
+    transform: translateX(-25px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+ 
+.address:hover{
+  transition: transform 1s, filter 1s ease-in-out;
+  transform:  rotate(360deg);
+}
+
