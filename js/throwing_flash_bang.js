@@ -7,13 +7,8 @@ function white_screen(){
         return new Promise(resolve => setTimeout(resolve, time));
       }
       var get_blinded = document.getElementById("blinded_gif")
-      var header = document.getElementById("header")
-      var footer = document.getElementById("footer")
+      var body = document.getElementById("body")
       delay(1000).then(() => bouncing_explose.play());
-      delay(2000).then(() => footer.style.background = "white");
-      delay(2000).then(() => white_screen.style.display = "none");
-      delay(2000).then(() => get_blinded.style.display="block");
-      delay(3800).then(() => get_blinded.style.display="none");
-      delay(2000).then(() => footer.style.background = "rgb(184, 184, 184)");
-      delay(3800).then(() => white_screen.style.display = "block");
+      delay(1800).then(() => body.style.display = "none");
+      delay(3800).then(() => body.style.display = "block");
     }
