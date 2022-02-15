@@ -8,7 +8,8 @@ section{
 .video_pentakill{
   text-align: center;
   padding-top: 20px;
-padding-bottom: 40%;
+  background-image: url("../img/grid.png");
+  background-repeat: repeat-x;
 }
 .title_area{
   text-align: center;
@@ -452,4 +453,37 @@ header a:hover {
    background-image: url("../img/double_door.png");
    background-size:100%;
    background-repeat: no-repeat;
+}
+
+.transition_between_video_maps {
+  width: 50%;
+  height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-repeat: no-repeat;
+  border: solid 5px #161314;
+}
+
+.transition_between_video_maps:hover {
+  filter: brightness(103%);
+  animation:  shake1 0.8s  ;
+}
+
+@keyframes shake1{
+  0%{
+    transform: translateY(0);
+  }
+  25%{
+    transform: translateY(25px);
+  }
+    
+  50%{
+    transform: translateY(-25px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
 }
