@@ -294,6 +294,7 @@ padding-bottom: 40%;
 .map_row {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 /* Clear floats after image containers */
