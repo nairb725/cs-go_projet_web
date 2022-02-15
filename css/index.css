@@ -8,20 +8,21 @@ section{
 .video_pentakill{
   text-align: center;
   padding-top: 20px;
-
+padding-bottom: 40%;
 }
 .title_area{
   text-align: center;
   font-size: 4rem;
   font-style: italic;
-  padding-top: 20%;
+  padding-top: 5%;
   padding-bottom: 8%;
+  color: white;
 }
 .title_skin{
     text-align: center;
     font-size: 4rem;
     font-style: italic;
-    padding-top: 20%;
+    margin-top: 40%;
     padding-bottom: 10%;
 }
 .title_team{
@@ -447,3 +448,8 @@ header a:hover {
  .navbar{
    background-color: black;
  }
+ .choose_your_csgo_map{
+   background-image: url("../img/double_door.png");
+   background-size:100%;
+   background-repeat: no-repeat;
+}
