@@ -488,3 +488,9 @@ header a:hover {
     transform: translateY(0px);
   }
 }
+.skin_csgo{
+  color: white;
+  background-image: url("../img/case.jpg");
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+}
