@@ -10,6 +10,7 @@ section{
   padding-top: 20px;
   background-image: url("../img/grid.png");
   background-repeat: repeat-x;
+  background-size: 6%;
 }
 .title_area{
   text-align: center;
@@ -415,7 +416,6 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 20px 50px;
-  margin-bottom:5% ;
   box-shadow: 0 1px 8px #ddd;
   background-color: black;
 }
