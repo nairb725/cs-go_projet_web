@@ -12,6 +12,11 @@ section{
   background-repeat: repeat-x;
   background-size: 6%;
 }
+.video-operation{
+  text-align: center;
+  width: 100%;
+  height: 100%; 
+}
 .title_area{
   text-align: center;
   font-size: 4rem;
@@ -24,7 +29,6 @@ section{
     text-align: center;
     font-size: 4rem;
     font-style: italic;
-    margin-top: 40%;
     padding-bottom: 10%;
 }
 .title_team{
