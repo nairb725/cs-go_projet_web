@@ -24,7 +24,7 @@ section{
     text-align: center;
     font-size: 4rem;
     font-style: italic;
-    margin-top: 40%;
+    
     padding-bottom: 10%;
 }
 .title_team{
@@ -462,8 +462,6 @@ header a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2%;
-  margin-bottom: 2%;
   background-repeat: no-repeat;
   border: solid 5px #161314;
 }
@@ -494,6 +492,7 @@ header a:hover {
   background-repeat: no-repeat;
   padding-bottom: 10%;
 }
+
 body {
   background: #eee;
   font-family: Tahoma;
@@ -927,3 +926,21 @@ p.testimonialFrom {
   color: #33475c;
 }
 /* ============== End Testimonial Flexbox ============= */
+
+
+.transition_between_video_maps_div {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-image: url("../img/grid_grey.png");
+  background-repeat: repeat-x;
+  background-size: 10%;
+}
+
+.transition_between_maps_weapons_div {
+  background-image: url("../img/grid.png");
+  background-repeat: repeat-x;
+  background-size: 6%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
