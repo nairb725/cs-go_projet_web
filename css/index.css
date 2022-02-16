@@ -21,8 +21,8 @@ section{
   text-align: center;
   font-size: 4rem;
   font-style: italic;
-  padding-top: 30%;
-  padding-bottom: 15%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   font-family: Arial, Helvetica;
 }
 .title_area{
@@ -62,7 +62,9 @@ section{
 .choose_team{
     text-align: center;
     padding-top: 2rem;
-    padding-bottom: 200px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-image: url("../img/background_csgo.jpeg");
 }
 .choose_team_terro{
   padding-right: 40px;
@@ -969,4 +971,3 @@ p.testimonialFrom {
   padding-top: 5%;
   padding-bottom: 5%;
 }
-
