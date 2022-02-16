@@ -738,7 +738,7 @@ input:checked ~ .content-test {
 }
 
 .content_testimonial-1 h1 {
-  color: #d64541;
+  color: #222f9e;
   text-align: center;
 }
 
@@ -752,7 +752,7 @@ input:checked ~ .content-test {
 }
 
 .content_testimonial-2 h1 {
-  color: #f5d76e;
+  color: #222f9e;
 }
 
 .content_testimonial-3 .picto {
@@ -765,7 +765,7 @@ input:checked ~ .content-test {
 }
 
 .content_testimonial-3 h1 {
-  color: #00b16a;
+  color: #222f9e;
 }
 
 .content_testimonial-4 .picto {
@@ -778,7 +778,7 @@ input:checked ~ .content-test {
 }
 
 .content_testimonial-4 h1 {
-  color: #f27935;
+  color: #222f9e;
 }
 
 .content-test h1:first-letter {
@@ -792,23 +792,23 @@ input:checked ~ label {
 }
 
 input:checked ~ label.label_testimonial-1 {
-  color: #d64541;
-  border-right: solid 4px #d64541;
+  color: #222f9e;
+  border-right: solid 4px #222f9e;
 }
 
 input:checked ~ label.label_testimonial-2 {
-  color: #f5d76e;
-  border-right: solid 4px #f5d76e;
+  color: #222f9e;
+  border-right: solid 4px #222f9e;
 }
 
 input:checked ~ label.label_testimonial-3 {
-  color: #00b16a;
-  border-right: solid 4px #00b16a;
+  color: #222f9e;
+  border-right: solid 4px #222f9e;
 }
 
 input:checked ~ label.label_testimonial-4 {
-  color: #f27935;
-  border-right: solid 4px #f27935;
+  color: #222f9e;
+  border-right: solid 4px #222f9e;
 }
 
 label.label_testimonial-1:before {
@@ -877,11 +877,11 @@ label:first-letter {
     left top,
     right top,
     from(#ffffff),
-    to(#d64541a3)
+    to(#222f9e)
   );
-  background-image: -webkit-linear-gradient(left, #ffffff, #d64541a3);
-  background-image: -o-linear-gradient(left, #ffffff, #d64541a3);
-  background-image: linear-gradient(to right, #ffffff, #d64541a3);
+  background-image: -webkit-linear-gradient(left, #ffffff, #222f9e);
+  background-image: -o-linear-gradient(left, #ffffff, #222f9e);
+  background-image: linear-gradient(to right, #ffffff, #222f9e);
   font-size: 1.2rem;
   -webkit-transition: font-size 0.5s;
   -o-transition: font-size 0.5s;
@@ -894,11 +894,11 @@ label:first-letter {
     left top,
     right top,
     from(#ffffff),
-    to(#f5d76e59)
+    to(#222f9e)
   );
-  background-image: -webkit-linear-gradient(left, #ffffff, #f5d76e59);
-  background-image: -o-linear-gradient(left, #ffffff, #f5d76e59);
-  background-image: linear-gradient(to right, #ffffff, #f5d76e59);
+  background-image: -webkit-linear-gradient(left, #ffffff, #222f9e);
+  background-image: -o-linear-gradient(left, #ffffff, #222f9e);
+  background-image: linear-gradient(to right, #ffffff, #222f9e);
   font-size: 1.2rem;
   -webkit-transition: font-size 0.5s;
   -o-transition: font-size 0.5s;
@@ -911,11 +911,11 @@ label:first-letter {
     left top,
     right top,
     from(#ffffff),
-    to(#00b16aa3)
+    to(#222f9e)
   );
-  background-image: -webkit-linear-gradient(left, #ffffff, #00b16aa3);
-  background-image: -o-linear-gradient(left, #ffffff, #00b16aa3);
-  background-image: linear-gradient(to right, #ffffff, #00b16aa3);
+  background-image: -webkit-linear-gradient(left, #ffffff, #222f9e);
+  background-image: -o-linear-gradient(left, #ffffff, #222f9e);
+  background-image: linear-gradient(to right, #ffffff, #222f9e);
   font-size: 1.2rem;
   -webkit-transition: font-size 0.5s;
   -o-transition: font-size 0.5s;
@@ -928,11 +928,11 @@ label:first-letter {
     left top,
     right top,
     from(#ffffff),
-    to(#f27935a3)
+    to(#222f9e)
   );
-  background-image: -webkit-linear-gradient(left, #ffffff, #f27935a3);
-  background-image: -o-linear-gradient(left, #ffffff, #f27935a3);
-  background-image: linear-gradient(to right, #ffffff, #f27935a3);
+  background-image: -webkit-linear-gradient(left, #ffffff, #222f9e);
+  background-image: -o-linear-gradient(left, #ffffff, #222f9e);
+  background-image: linear-gradient(to right, #ffffff, #222f9e);
   font-size: 1.2rem;
   -webkit-transition: font-size 0.5s;
   -o-transition: font-size 0.5s;
