@@ -5,14 +5,19 @@ section{
   width: 100%;
   height: 100%;
 }
-.video_pentakill{
+.video_pentakill_section{
   text-align: center;
-  padding-top: 20px;
+  padding-top: 5%;
   background-image: url("../img/grid.png");
   background-repeat: repeat-x;
   background-size: 6%;
+  font-family: Arial, Helvetica;
 }
-.video-operation{
+.video_pentakill{
+  width: 100%;
+}
+
+.video-operation {
   text-align: center;
   width: 100%;
   height: 100%; 
@@ -742,7 +747,7 @@ input:checked ~ .content-test {
     font-size: 1.3rem;
   }
 }
-
+/* ============== Slider ============= */
 .content_testimonial-1 .picto {
   height: 100px;
   width: 100px;
