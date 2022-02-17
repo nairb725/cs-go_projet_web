@@ -5,13 +5,18 @@ section{
   width: 100%;
   height: 100%;
 }
-.video_pentakill{
+.video_pentakill_section{
   text-align: center;
-  padding-top: 20px;
+  padding-top: 5%;
   background-image: url("../img/grid.png");
   background-repeat: repeat-x;
   background-size: 6%;
+  font-family: Arial, Helvetica;
 }
+.video_pentakill{
+  width: 100%;
+}
+
 .video-operation{
   text-align: center;
   width: 100%;
@@ -24,9 +29,13 @@ section{
   padding-top: 10%;
   padding-bottom: 10%;
   font-family: Arial, Helvetica;
+}
+
+.title_operation_background {
   background-image: url("../img/grid.png");
   background-size: 5%;
 }
+
 .title_area{
   text-align: center;
   font-size: 4rem;
