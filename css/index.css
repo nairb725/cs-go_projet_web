@@ -755,7 +755,7 @@ input:checked ~ .content-test {
 .content_testimonial-1 .picto {
   height: 100px;
   width: 100px;
-  background-image: url();
+  background-image: url(../img/autocollant_2.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -769,7 +769,7 @@ input:checked ~ .content-test {
 .content_testimonial-2 .picto {
   height: 100px;
   width: 100px;
-  background-image: url();
+  background-image: url(../img/autocollant_4.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -782,7 +782,7 @@ input:checked ~ .content-test {
 .content_testimonial-3 .picto {
   height: 100px;
   width: 100px;
-  background-image: url();
+  background-image: url(../img/autocollant_3.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -795,7 +795,7 @@ input:checked ~ .content-test {
 .content_testimonial-4 .picto {
   height: 100px;
   width: 100px;
-  background-image: url();
+  background-image: url(../img/autocollant_1.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
