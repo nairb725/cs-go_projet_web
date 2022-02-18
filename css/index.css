@@ -444,7 +444,7 @@ color: white;
 color: white;
 }
 .li_navbar:hover{
-border-bottom: 5px solid red;
+border-bottom: 5px solid #222f9e;
 color: white;
 background-color: #4e4e4e;
 }
